@@ -3,7 +3,7 @@ const launcherBaseURL = "https://RobloxDev-wasabi.github.io/classicrbx-launcher"
 
 // === PLAY BUTTON SETUP ===
 document.addEventListener("DOMContentLoaded", () => {
-  const playBtn = document.querySelector("img[src*='image3041.png']"); // Replace with your actual Play button image filename
+  const playBtn = document.querySelector("img[src*='image304.png']"); // Replace with your actual Play button image filename
 
   if (playBtn) {
     playBtn.style.cursor = "pointer";
