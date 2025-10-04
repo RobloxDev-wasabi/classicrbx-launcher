@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // === Load Game from Studio ===
   const gameName = new URLSearchParams(window.location.search).get("game");
-  fetch(`https://yourusername.github.io/classicrbx-studio/games/${gameName}.json`)
+  fetch(`https://RobloxDev-wasabi.github.io/classicrbx-studio/games/${gameName}.json`)
     .then(res => res.json())
     .then(data => {
       loadGame(data);
